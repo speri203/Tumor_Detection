@@ -1,7 +1,3 @@
-# Tumor Detection README.md
-
-Created: Sep 25, 2020 12:02 PM
-Reviewed: No
 
 # Brain Tumor Detection and Segmentation
 
