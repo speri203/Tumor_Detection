@@ -20,13 +20,13 @@ I will briefly go over the results before going into more depth about the datase
 1. ResNet50 Tumor Detection
     - Firstly, I will present a confusion matrix representing the detection
 
-        ![Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/confusion_matrix.png](Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/confusion_matrix.png)
+        ![https://github.com/speri203/Tumor_Detection/blob/master/images/confusion_matrix.png](https://github.com/speri203/Tumor_Detection/blob/master/images/confusion_matrix.png)
 
         The confusion matrix presents the overall correct and incorrect detection on the test dataset. It should be noted that the model has never seen the test dataset, so it has no opportunity to "memorize" the detection.
 
     - Secondly, I will present the Precision, Recall, and F1 score of the detection process
 
-        ![Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/Screen_Shot_2020-10-01_at_9.11.14_PM.png](Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/Screen_Shot_2020-10-01_at_9.11.14_PM.png)
+        ![https://github.com/speri203/Tumor_Detection/blob/master/images/Screen%20Shot%202020-10-01%20at%209.11.14%20PM.png](https://github.com/speri203/Tumor_Detection/blob/master/images/Screen%20Shot%202020-10-01%20at%209.11.14%20PM.png)
 
         - Precision is defined as the model predicting tumor and the label (ground truth) is a tumor. In other words, when the model predicted true how often was it correct.
         - Recall is defined as when the label (ground truth) is a tumor and the model detects it as a tumor.  In other words, when actually it was true how often did the model get it correct.
@@ -42,7 +42,7 @@ I will briefly go over the results before going into more depth about the datase
     - The metric takes the overlapping pixels and divides it by the total number number of pixels in the ground truth  and the prediction.
     - **The accuracy of the segmentation is ~96%**
 
-        ![Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/mask_predictions.png](Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/mask_predictions.png)
+        ![https://github.com/speri203/Tumor_Detection/blob/master/images/mask_predictions.png](https://github.com/speri203/Tumor_Detection/blob/master/images/mask_predictions.png)
 
         - In the above image the second column (ground truth) is the actual tumor location and segmentation. The third column (prediction) is the models prediction as to the location and segmentation.
         - The blue segmentation is the ground truth overlaid on top of the MRI scan and the red segmentation is the prediction overlaid on the MRI.
