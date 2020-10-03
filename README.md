@@ -1,7 +1,3 @@
-# Tumor Detection README.md
-
-Created: Sep 25, 2020 12:02 PM
-Reviewed: No
 
 # Brain Tumor Detection and Segmentation
 
@@ -46,7 +42,7 @@ I will briefly go over the results before going into more depth about the datase
     - The metric takes the overlapping pixels and divides it by the total number number of pixels in the ground truth  and the prediction.
     - **The accuracy of the segmentation is ~96%**
 
-        ![Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/mask_predictions.png](Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/mask_predictions.png)
+        ![https://github.com/speri203/Tumor_Detection/blob/master/images/mask_predictions.png](https://github.com/speri203/Tumor_Detection/blob/master/images/mask_predictions.png)
 
         - In the above image the second column (ground truth) is the actual tumor location and segmentation. The third column (prediction) is the models prediction as to the location and segmentation.
         - The blue segmentation is the ground truth overlaid on top of the MRI scan and the red segmentation is the prediction overlaid on the MRI.
