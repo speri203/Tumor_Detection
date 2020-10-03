@@ -20,13 +20,13 @@ I will briefly go over the results before going into more depth about the datase
 1. ResNet50 Tumor Detection
     - Firstly, I will present a confusion matrix representing the detection
 
-        ![Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/confusion_matrix.png](Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/confusion_matrix.png)
+        ![https://github.com/speri203/Tumor_Detection/blob/master/images/confusion_matrix.png](https://github.com/speri203/Tumor_Detection/blob/master/images/confusion_matrix.png)
 
         The confusion matrix presents the overall correct and incorrect detection on the test dataset. It should be noted that the model has never seen the test dataset, so it has no opportunity to "memorize" the detection.
 
     - Secondly, I will present the Precision, Recall, and F1 score of the detection process
 
-        ![Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/Screen_Shot_2020-10-01_at_9.11.14_PM.png](Tumor%20Detection%20README%20md%20f0d9c3315e9047388d229c2148b5599e/Screen_Shot_2020-10-01_at_9.11.14_PM.png)
+        ![https://github.com/speri203/Tumor_Detection/blob/master/images/Screen%20Shot%202020-10-01%20at%209.11.14%20PM.png](https://github.com/speri203/Tumor_Detection/blob/master/images/Screen%20Shot%202020-10-01%20at%209.11.14%20PM.png)
 
         - Precision is defined as the model predicting tumor and the label (ground truth) is a tumor. In other words, when the model predicted true how often was it correct.
         - Recall is defined as when the label (ground truth) is a tumor and the model detects it as a tumor.  In other words, when actually it was true how often did the model get it correct.
